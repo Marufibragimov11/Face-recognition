@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyqt5 = "==5.15.0"
+pyqt5-sip = "==12.8.0"
+opencv-python = "*"
+dlib = {path = "C:/Users/mrumi/Downloads/Install-dlib-main/Install-dlib-main/dlib-19.19.0-cp37-cp37m-win_amd64.whl"}
+cmake = "*"
+face-recognition = "*"
+pyqt5-tools = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
